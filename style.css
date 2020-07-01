@@ -127,11 +127,14 @@ h2 {
     border:2px;
     border-style:solid; 
     border-color:#000000; 
-   
     background-color: rgb(235, 228, 228);
     border-radius: 15px
 }
 
+.subheading {
+    font-size: 20px
+
+}
 
 
 

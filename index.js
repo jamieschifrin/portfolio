@@ -19,7 +19,8 @@ function toggle_onclick($win, $navbar, width){
         $navbar.css({left: '0px'});
     }
 }
-white_check_markeyesraised_hands
+
+
 
 
 
