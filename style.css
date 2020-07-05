@@ -118,15 +118,15 @@ h2{
     font-family: Times New Roman;
     text-align: center;
     border:2px;
-    border-style: solid;  */
+    border-style: solid;  
     border-color:#000000; 
-    background-color: rgb(230, 232, 236); 
-    border-radius: 15px
+    background-color: #f3f0f0; 
+    border-radius: 15px;
      /* background-image: url(./assets/swirl.jpg);  */
 }
 
 .subheading {
-    font-size: 20px
+    font-size: 20px;
 
 }
 .card-deck{
@@ -137,12 +137,12 @@ h2{
     display: block;
     margin-left: auto;
     margin-right: auto;
-   
+    width: 220px;
 }
 
 
 .bottomSections {
-    margin: 30px 30px 30px 50px;
+    margin: 20px 20px 20px 20px;
 }
 
 .resume-date{
@@ -154,9 +154,21 @@ h2{
 
 }
 
+.skills-subhead{
+    text-align: center;
+}
 
+.scaled{
+transform: scale(0.9);
+}
 
+.btn-info {
+    
+}
 
+.text-primary{
+    text-align: right;
+}
 @media screen and (min-width: 768px) {
     .toggle-button {
         display: none;
