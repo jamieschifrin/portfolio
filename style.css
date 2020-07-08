@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 :root {
-        --color-primary : #000000;
+        --color-primary : #3fa178;
         --color-secondary: #FFFFFF;
         --color-border: #ffffff34;
         --font-staat: 'Staatliches', cursive;
@@ -120,7 +120,7 @@ h2{
     border:2px;
     border-style: solid;  
     border-color:#000000; 
-    background-color: #f3f0f0; 
+    background-color: #0f8797; 
     border-radius: 15px;
      /* background-image: url(./assets/swirl.jpg);  */
 }
