@@ -7,9 +7,9 @@ body {
     padding: 0;
 }
 :root {
-        --color-primary : #3fa178;
-        --color-secondary: #FFFFFF;
-        --color-border: #ffffff34;
+        --color-primary : #b2c7f0;
+        --color-secondary: #181e1f;
+        --color-border: #000000;
         --font-staat: 'Staatliches', cursive;
         --font-os: 'Oswald', sans-serif;
         --font-ram:'Rambla', sans-serif;
@@ -23,8 +23,17 @@ body {
 .font-ram{
     font: normal bold 18px var (--font-ram);
 }
+.font-size-70 {
+    font-size: 70px;
+}
+.font-size-60 {
+    font-size: 60px;
+}
 .font-size-50 {
     font-size: 50px;
+}
+.font-size-45 {
+    font-size: 40px;
 }
 .font-size-40 {
     font-size: 40px;
@@ -54,6 +63,7 @@ body {
 }
 #header nav {
     height: 100vh;
+    
 }
 #header .site-title .navbar-brand {
     letter-spacing: 2px;
@@ -94,23 +104,24 @@ body {
     transform: translate(-50%, -50%)
 }
 .site-banner .banner-area .author .author-img {
-    width: 250px;
-    height: 250px;
+    width: 320px;
+    height: 320px;
     border-radius: 50%;
     margin: auto;
     background: url(./assets/jamie.jpg) no-repeat;
     background-size: 105%;
     background-position: 40% 0;
-     border: 2px solid rgb(250, 232, 232)
+     border: 4px solid rgb(105, 96, 96)
+
 }
 
 #address{
     padding-top: -10px;
-    text-shadow: 2px 2px #000000
+    /* text-shadow: 3px 3px #b44b4b */
 }
 
 #nameshadow{
-    text-shadow: 2px 2px #000000
+    /* text-shadow: 3px 3px #b33d3d */
 }
 
 h2{
@@ -120,8 +131,8 @@ h2{
     border:2px;
     border-style: solid;  
     border-color:#000000; 
-    background-color: #0f8797; 
-    border-radius: 15px;
+    background-color: #e8f2f3;
+    /* border-radius: 15px; */
      /* background-image: url(./assets/swirl.jpg);  */
 }
 
@@ -131,6 +142,7 @@ h2{
 }
 .card-deck{
     margin-top: 25px;
+  
 }
 .card-img-top {
     
@@ -141,8 +153,9 @@ h2{
 }
 
 
+
 .bottomSections {
-    margin: 20px 20px 20px 20px;
+    margin: 20px 2px 20px 2px;
 }
 
 .resume-date{
@@ -162,12 +175,17 @@ h2{
 transform: scale(0.9);
 }
 
+
 .btn-info {
     
 }
 
 .text-primary{
-    text-align: right;
+
+}
+
+.lydias {
+    border: 2px solid rgb(0, 0, 0)
 }
 @media screen and (min-width: 768px) {
     .toggle-button {
@@ -176,6 +194,13 @@ transform: scale(0.9);
     #header {
         z-index: 0 ;
     }
+}
+
+.box {
+
+    border:2px;
+    border-style: solid;  
+    border-color:#852424; 
 }
 
 
